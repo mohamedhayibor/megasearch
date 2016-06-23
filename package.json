@@ -1,0 +1,42 @@
+{
+  "name": "megasearch",
+  "version": "1.0.0",
+  "description": "This module will open new tabs for every result in the first page results for npm, Google, Github, Stackoverflow, Mozilla, Gists (github)",
+  "main": "cli.js",
+  "bin": {
+    "ms": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified or even needed\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedhayibor/megasearch.git"
+  },
+  "keywords": [
+    "Github",
+    "Google",
+    "Stackoverflow",
+    "Gists",
+    "Gist",
+    "Git",
+    "Search",
+    "searching",
+    "results",
+    "fast",
+    "tabs",
+    "browser"
+  ],
+  "author": "Mohamed Hayibor <mohamedhayibor@gmail.com> (github.com/mohamedhayibor)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamedhayibor/megasearch/issues"
+  },
+  "homepage": "https://github.com/mohamedhayibor/megasearch#readme",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "got": "^6.3.0",
+    "meow": "^3.7.0",
+    "open": "0.0.5"
+  }
+}
