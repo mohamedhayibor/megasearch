@@ -1,4 +1,4 @@
-# megasearch
+# megasearch ![](https://img.shields.io/badge/status-stable-green.svg)
 
 This module will open new tabs for every result in the first page results for **npm**, **Google**, **Github**, **Stackoverflow**, **Mozilla** and  **Gist (Github)** :sunglasses:
 
@@ -29,7 +29,7 @@ Examples queries:
 
 # Demo
 
-![](http://g.recordit.co/.gif)
+![](http://g.recordit.co/HIfX3MNjDi.gif)
 
 #### Api
 
