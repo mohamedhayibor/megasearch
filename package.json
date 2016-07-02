@@ -1,6 +1,6 @@
 {
   "name": "megasearch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This module will open new tabs for every result in the first page results for npm, Google, Github, Stackoverflow, Mozilla, Gists (github)",
   "main": "cli.js",
   "bin": {
@@ -17,6 +17,7 @@
     "Github",
     "Google",
     "Stackoverflow",
+    "npm",
     "Gists",
     "Gist",
     "Git",
@@ -25,7 +26,10 @@
     "results",
     "fast",
     "tabs",
-    "browser"
+    "browser",
+    "Mozilla",
+    "mdn",
+    "no-tracking"
   ],
   "author": "Mohamed Hayibor <mohamedhayibor@gmail.com> (github.com/mohamedhayibor)",
   "license": "MIT",

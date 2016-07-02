@@ -40,6 +40,8 @@ No api to mess with. Enter the command and get instant results. :sunglasses:
 ### Raison D'etre
 You cannot possibly know everything and as long as you can get the info you need fast you are in good shape. This package is an automation of my workflow. I search, click around and leave the tabs that might be useful open. This package allows you to search and automatically open all tabs of the first page results. Then you can close any junk tabs with "cmd+w" or "ctrl+w".
 
+Another benefit is that all tracking stuff are removed in the case of `ms google`
+
 > This package does this automation super well.
 
 ## License

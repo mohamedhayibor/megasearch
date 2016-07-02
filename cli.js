@@ -2,6 +2,8 @@
 'use strict'
 const meow = require('meow');
 
+// importing each website's scraping (getting the hrefs > links)
+// moduluarized for clarity and to allow fast refactor if a website change their dom elements or classes
 const google = require('./lib/google.js')
 const mdn = require('./lib/mdn.js');
 const npm = require('./lib/npm.js');
@@ -35,9 +37,13 @@ let commands = {
   'gist': gist
 };
 
+/**
+* {fist argument} > command (identifying website)
+* {second argument} > entire {string} query (concatenating all array value)
+*/
 if (cli.input[0] in commands) {
   commands[cli.input.shift()](cli.input.join(' '));
-  console.log('Have an awesome search');
+  console.log('Have an awesome search champion!');
 } else {
   console.log(`
   That command is unknown. The available commands are:
@@ -48,6 +54,6 @@ if (cli.input[0] in commands) {
     * github
     * gist
   `);
-  // exit
+  // force automatic exit
   process.exit(1);
 }
