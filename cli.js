@@ -1,6 +1,9 @@
 #!/usr/bin/env node
 'use strict'
 const meow = require('meow');
+const Ora = require('ora');
+
+const spin = new Ora('Loading your awesome results...');
 
 // importing each website's scraping (getting the hrefs > links)
 // moduluarized for clarity and to allow fast refactor if a website change their dom elements or classes
@@ -43,7 +46,10 @@ let commands = {
 */
 if (cli.input[0] in commands) {
   commands[cli.input.shift()](cli.input.join(' '));
-  console.log('Have an awesome search champion!');
+  setTimeout( () => {
+    spin.text = 'Have an awesome search champion!';
+    spin.succeed();
+  });
 } else {
   console.log(`
   That command is unknown. The available commands are:

@@ -1,6 +1,6 @@
 {
   "name": "megasearch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This module will open new tabs for every result in the first page results for npm, Google, Github, Stackoverflow, Mozilla, Gists (github)",
   "main": "cli.js",
   "bin": {
@@ -41,6 +41,7 @@
     "cheerio": "^0.20.0",
     "got": "^6.3.0",
     "meow": "^3.7.0",
-    "open": "0.0.5"
+    "open": "0.0.5",
+    "ora": "^0.3.0"
   }
 }
