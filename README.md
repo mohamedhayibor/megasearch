@@ -2,6 +2,8 @@
 
 This module will open new tabs for every result in the first page results for **npm**, **Google**, **Github**, **Stackoverflow**, **Mozilla** and  **Gist (Github)** :sunglasses:
 
+![](http://g.recordit.co/HIfX3MNjDi.gif)
+
 ## Installation
 ```sh
 > npm install -g megasearch
@@ -27,11 +29,7 @@ Examples queries:
 ```
 > mdn stands for Mozilla Developer Network. ms stands for **megasearch**
 
-# Demo
-
-![](http://g.recordit.co/HIfX3MNjDi.gif)
-
-#### Api
+### Api
 
 No api to mess with. Enter the command and get instant results. :sunglasses:
 
