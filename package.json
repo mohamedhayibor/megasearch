@@ -1,7 +1,7 @@
 {
   "name": "megasearch",
-  "version": "1.0.3",
-  "description": "This module will open new tabs for every result in the first page results for npm, Google, Github, Stackoverflow, Mozilla, Gists (github)",
+  "version": "1.0.4",
+  "description": "Open new tabs for every result in the first page results for npm, Google, Github, Stackoverflow, Mozilla, Gists (github)",
   "main": "cli.js",
   "bin": {
     "ms": "cli.js"
