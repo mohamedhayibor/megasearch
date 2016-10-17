@@ -40,7 +40,7 @@ You cannot possibly know everything and as long as you can get the info you need
 
 Another benefit is that all tracking stuff are removed in the case of `ms google`
 
-> This package does this automation super well.
+> Bonus: all your results if any will be (https). Forget http junks.
 
 ## License
 MIT © [Mohamed Hayibor](http://github.com/mohamedhayibor)
