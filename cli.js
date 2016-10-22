@@ -52,13 +52,17 @@ if (cli.input[0] in commands) {
   });
 } else {
   console.log(`
-  That command is unknown. The available commands are:
+  The "ms" command needs an argument:
     * google
     * mdn
     * npm
     * stack
     * github
     * gist
+
+  General structure: ms <site> <query>
+
+  Example: > ms google what is a middleware
   `);
   // force automatic exit
   process.exit(1);
